@@ -6,7 +6,7 @@
 
 ## Summary of Findings
 
-Using a dataset of ~426K used car listings from Kaggle, we built regression models (Linear Regression, Ridge, and Lasso) to identify the key drivers of used car prices. Our best model (Ridge Regression) explains approximately **78% of the variation in used car prices** (R² ≈ 0.78).
+Using a dataset of ~426K used car listings from Kaggle, we built regression models (Linear Regression, Ridge, and Lasso) to identify the key drivers of used car prices. Our best model (Ridge Regression) explains approximately **75% of the variation in used car prices** (R² ≈ 0.75).
 
 ### Top Price Drivers — Dealership Takeaways
 
@@ -24,9 +24,9 @@ Using a dataset of ~426K used car listings from Kaggle, we built regression mode
 
 | Model | Test R² | CV R² |
 |---|---|---|
-| Linear Regression | ~0.77 | ~0.77 |
-| **Ridge Regression** | **~0.78** | **~0.78** |
-| Lasso Regression | ~0.77 | ~0.77 |
+| Linear Regression | 0.7539 | 0.7517 |
+| **Ridge Regression** | **0.7539** | **0.7517** |
+| Lasso Regression | 0.7534 | 0.7512 |
 
 Ridge Regression is recommended as the production model due to its robustness to multicollinearity from one-hot encoded categorical features.
 
